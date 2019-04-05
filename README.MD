@@ -1,5 +1,5 @@
 ### Description
-The reposotory has a code for article of Yury Strozhevsky [**Представление произвольных полиномов в виде конечных разностей с произвольным шагом**](). Main difference from already known ways of using `finite differences` is having any step between `differences`, not only one. Also the code proves that **any** polinom with degree `n` could be calculated using `n+1` values in sequence.
+The reposotory has a code for article of Yury Strozhevsky [**Представление произвольных полиномов в виде конечных разностей с произвольным шагом**](https://habr.com/ru/post/446924/). Main difference from already known ways of using `finite differences` is having any step between `differences`, not only one. Also the code proves that **any** polinom with degree `n` could be calculated using `n+1` values in sequence.
  
 ### Installation
 The repository has everything you need. Just clone/download it and run the server:
