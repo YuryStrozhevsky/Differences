@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation for article of Yury Strozhevsky</title>
+
+    <script type="module" src="es6.js"></script>
+
+    <style>
+        textarea
+        {
+            width: 600px;
+            height: 200px;
+        }
+
+        label
+        {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <label for="i_degree">Degree (integer number):</label>
+        <input type="number" min="1" id="i_degree" title="Degree of the polinom" value="2"/>
+    </p>
+    <p>
+        <label for="i_step">Step (float number):</label>
+        <input type="number" min="0" id="i_step" title="Step for polinom calculation" value="1"/>
+    </p>
+    <p>
+        <label for="i_count">Count (integer number):</label>
+        <input type="number" min="0" id="i_count" title="Count of calculations for polinom" value="100"/>
+    </p>
+    <p>
+        <label for="i_start">Start position for x (float number):</label>
+        <input type="number" id="i_start" title="Start position for x" value="0"/>
+    </p>
+    <p>
+        <button onclick="calculate()">Calculate</button>
+        <button onclick="calculate(true)">Calculate Using Random Numbers</button>
+    </p>
+    <p>
+        <label for="t_formulareal">Common Formula For Polinom:</label>
+        <textarea id="t_formulareal"></textarea>
+    </p>
+    <p>
+        <label for="t_formuladif">Formula In Differences:</label>
+        <textarea id="t_formuladif"></textarea>
+    </p>
+    <p>
+        <label for="t_real">Real Polinom Values:</label>
+        <textarea id="t_real"></textarea>
+    </p>
+    <p>
+        <label for="t_calc">Calculated Via Differences Values:</label>
+        <textarea id="t_calc"></textarea>
+    </p>
+</body>
+</html>
